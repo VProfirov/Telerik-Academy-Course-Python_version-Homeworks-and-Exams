@@ -16,3 +16,11 @@ print(str(variable) + " of type: " + str(type(variable)))
 print(type(variable))
 print(variable + variable)
 print("some str", "some string literal", sep=" ")
+
+
+# LITERAL INTERPOLATION
+fn = 'Pesho'
+ln = 'Goshev'
+print(f'Hello {fn} {ln}! Nice to meet you, {fn}!')
+
+
