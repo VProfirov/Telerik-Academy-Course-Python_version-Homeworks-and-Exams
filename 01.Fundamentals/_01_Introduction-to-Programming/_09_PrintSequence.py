@@ -1,7 +1,7 @@
 import math
 
 
-def print_sequence(seq_size):
+def build_sequence(seq_size):
     start = 2
     seq = ""
     upper_bound = int(start + seq_size)
@@ -16,6 +16,6 @@ def print_sequence(seq_size):
 
 
 seq_size = 10
-user_input_seq_size = math.fabs(int(input("Enter sequence size: ") or 0))
+user_input_seq_size = math.fabs(int(input("Enter sequence size(defaults for sequence size of 10): ") or 0))
 if user_input_seq_size > 0: seq_size = user_input_seq_size
-print_sequence(seq_size)
+print(build_sequence(seq_size))
