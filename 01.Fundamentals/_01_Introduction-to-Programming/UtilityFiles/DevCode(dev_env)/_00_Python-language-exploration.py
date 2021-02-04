@@ -23,4 +23,11 @@ fn = 'Pesho'
 ln = 'Goshev'
 print(f'Hello {fn} {ln}! Nice to meet you, {fn}!')
 
+# NOTE: Descriptive NOTATIONS
 
+# FIXME: 
+# NOTE:
+# TODO:
+# REVIEW:
+
+from package01 import module01_aka_filename_with_no_dotPY as shorter_name_OR_nonConflicting_alias
