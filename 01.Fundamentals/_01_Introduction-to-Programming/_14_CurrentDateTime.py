@@ -5,4 +5,5 @@ def get_current_datetime():
     return current_datetime
 
 
-print(get_current_datetime())
+if __name__ == '__main__':
+    print(f'The current date is: {get_current_datetime()}')

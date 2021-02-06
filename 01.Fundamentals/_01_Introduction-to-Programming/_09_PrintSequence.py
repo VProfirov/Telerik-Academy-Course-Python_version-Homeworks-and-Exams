@@ -1,6 +1,5 @@
 import math
 
-
 def build_sequence(seq_size):
     start = 2
     seq = ""
@@ -12,10 +11,12 @@ def build_sequence(seq_size):
         else:
             seq += ", " + str(step)
 
-    print(seq)
+    return seq
 
 
-seq_size = 10
-user_input_seq_size = math.fabs(int(input("Enter sequence size(defaults for sequence size of 10): ") or 0))
-if user_input_seq_size > 0: seq_size = user_input_seq_size
-print(build_sequence(seq_size))
+if __name__ == '__main__':
+    seq_size = 10
+    user_input_seq_size = int(math.fabs(int(input("Enter sequence size(defaults for sequence size of 10): ") or 0)))
+    if user_input_seq_size > 0: seq_size = user_input_seq_size
+    print(build_sequence(seq_size))
+    print('hi')

@@ -13,9 +13,11 @@ def get_current_age(birthdate_str):
 def get_age_after_10years(age):
     return age + 10
 
-# get_current_age('10.05.1990')
-birthdate = '10.05.1987'
-current_age = get_current_age(birthdate)
-age_after_10years = get_age_after_10years(current_age)
-print(current_age)
-print(age_after_10years)
+
+if __name__ == '__main__':
+    # get_current_age('10.05.1990')
+    birthdate = '10.05.1987'
+    current_age = get_current_age(birthdate)
+    age_after_10years = get_age_after_10years(current_age)
+    print(current_age)
+    print(age_after_10years)
