@@ -4,4 +4,6 @@ def print_numbers():
     print(1001)
 
 
-print_numbers()
+
+if __name__ == '__main__':
+    print_numbers()
