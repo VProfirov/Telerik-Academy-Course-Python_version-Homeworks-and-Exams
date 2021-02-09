@@ -10,7 +10,7 @@ numbers = [52130, -115, 4825932, 97, -10000]
 numbers[0]
 numbers[1]
 # will have the same functionality as:
-num1 = 52130
+num1 = 52143
 num2 = -115
 
 print(type(numbers))
